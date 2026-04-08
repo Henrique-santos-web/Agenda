@@ -57,7 +57,7 @@ while True:
                 break
 
         if contato_clone:
-            print(f"O contato {telefone} já existe!")
+            print(f"Este número({telefone}) já existe!")
             time.sleep(TEMPO)
         else:
             contato = {
